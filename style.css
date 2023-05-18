@@ -254,7 +254,7 @@ section .title::after{
     background: rgb(247, 246, 246);
 }
 .services .serv-content .card{
-    width: calc(33% - 20px);
+    /* width: calc(33% - 20px); */
     background: rgb(250, 249, 249);
     text-align: center;
     border-radius: 6px;
@@ -284,6 +284,7 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+
 
 /* technical skills */
 
@@ -347,93 +348,65 @@ section .title::after{
 .skills-content .right .css::before{
     width: 70%;
 }
-.skills-content .right .js::before{
-    width: 40%;
+.skills-content .right .boots::before{
+    width: 70%;
+}
+.skills-content .right .sql::before{
+    width: 75%;
+}
+.skills-content .right .python::before{
+    width: 75%;
 }
 .skills-content .right .c::before{
-    width: 40%;
+    width: 75%;
 }
-.skills-content .right .cj::before{
+.skills-content .right .cpp::before{
+    width: 75%;
+}
+.skills-content .right .js::before{
     width: 50%;
 }
-.skills-content .right .dbms::before{
-    width: 60%;
-}
-
-/* soft skills */
-.skills .skills-content .column{
-    width: calc(50% - 30px);
-}
-.skills .skills-content .left .text{
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-.skills .skills-content .left p{
-    text-align: justify;
-}
-.skills .skills-content .left a{
-    display: inline-block;
-    background: rgb(20, 153, 220);
-    color: rgb(14, 9, 9);
-    font-size: 18px;
-    font-weight: 500;
-    padding: 8px 16px;
-    margin-top: 20px;
-    border-radius: 6px;
-    border: 2px solid rgb(20, 153, 220);
-    transition: all 0.3s ease;
-}
-.skills .skills-content .left a:hover{
-    color: rgb(20, 153, 220);
-    background: none;
-}
-.skills .skills-content .right .bars{
-    margin-bottom: 15px;
-}
-.skills .skills-content .right .info{
-    display: flex;
-    margin-bottom: 5px;
-    align-items: center;
-    justify-content: space-between;
-}
-.skills .skills-content .right span{
-    font-weight: 500;
-    font-size: 18px;
-}
-.skills .skills-content .right .line{
-    height: 5px;
-    width: 100%;
-    background: lightgrey;
-    position: relative;
-}
-.skills .skills-content .right .line::before{
-    content: "";
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: rgb(20, 153, 220);
-}
-.skills-content .right .tw::before{
-    width: 70%;
-}
-.skills-content .right .gc::before{
-    width: 45%;
-}
-.skills-content .right .cl::before{
+.skills-content .right .java::before{
     width: 40%;
 }
-.skills-content .right .h::before{
-    width: 100%;
-}
-.skills-content .right .l::before{
-    width: 65%;
-}
-.skills-content .right .tb::before{
-    width: 70%;
-}
 
+
+/* Project */
+
+
+/* 
+
+  .button {
+    display: none;
+    transition: all 1s ease-out;
+  }
+
+  h5 {
+    transition: all .5s ease-out;
+  }
+
+  .card {
+    border-radius: 2em;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+
+  }
+
+  .img-effects {
+    border-radius: 2em;
+    transition: all .5s ease-out;
+  }
+
+  .card-style:hover .button {
+    display: inline-block;
+  }
+
+  .card-style:hover .img-effects {
+    filter: blur(3px);
+  }
+
+  .card-style:hover .card-title {
+    font-size: 24px;
+  } */
 
 
 /* contact me */

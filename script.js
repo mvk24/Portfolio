@@ -27,6 +27,10 @@ $(document).ready(function(){
     //     $('html').css("scrollBehavior", "smooth");
     // });
 
+
+
+
+    
     // toggle menu/navbar script
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
@@ -35,7 +39,7 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Student", "Fresher", "Hardworker", "Web Developer", "Programmer"],
+        strings: ["Student", "Fresher", "Hardworker", "Programmer", "Web Developer", "Application Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -64,3 +68,4 @@ $(document).ready(function(){
         }
     });
 });
+
