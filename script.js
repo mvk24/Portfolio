@@ -8,7 +8,7 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Student", "Fresher", "Hardworker", "Programmer", "Web Developer", "Application Developer"],
+        strings: ["Student", "Fresher", "Hardworker", "Programmer", "Fast Learner"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
