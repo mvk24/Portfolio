@@ -60,12 +60,12 @@ section .title::before{
     position: absolute;
     bottom: 0px;
     left: 50%;
-    width: 180px;
+    width: 300px;
     height: 3px;
     background: #111;
     transform: translateX(-50%);
 }
-section .title::after{
+/* section .title::after{
     position: absolute;
     bottom: -8px;
     left: 50%;
@@ -74,7 +74,7 @@ section .title::after{
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
-}
+} */
 
 /* navbar */
 .navbar{
