@@ -57,10 +57,10 @@ $(document).ready(function(){
         const message = $('#contact-message').val().trim();
 
         const emailBody =
-            `Hello Varun,\n\n` +
-            `Name: ${name}\n` +
-            `Email: ${email}\n\n` +
-            `Message:\n${message}`;
+            `${message}\n\n` +
+            `Regards,\n` +
+            `${name}\n` +
+            `${email}`;
 
         const mailtoLink =
             `mailto:varun.mithyantha@gmail.com?subject=${encodeURIComponent(subject)}` +
