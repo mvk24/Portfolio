@@ -318,16 +318,26 @@ section .title::before{
 .skills .skills-content .right .bars{
     margin-bottom: 15px;
 }
-.skills .skills-content .right .info{
-    display: flex;
-    margin-bottom: 5px;
-    align-items: center;
-    justify-content: space-between;
+
+.skills .skills-content .right .info {
+    display: block;
+    margin-bottom: 6px;
 }
-.skills .skills-content .right span{
-    font-weight: 500;
+
+.skills .skills-content .right span {
+    display: block;
+    font-weight: 600;
     font-size: 18px;
 }
+
+.skills .skills-content .right small {
+    display: block;
+    margin-top: 3px;
+    color: #666;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
 .skills .skills-content .right .line{
     height: 5px;
     width: 100%;
