@@ -8,7 +8,13 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Jr. Software Engineer @ Cognizant", "Hardworker", "Programmer", "Fast Learner"],
+        strings: [
+            "Software Engineer, AI Products & Platforms @ Cognizant",
+            "Generative AI Engineer",
+            "AWS Bedrock & Agentic AI Engineer",
+            "LLM & RAG Systems Builder",
+            "FastAPI & Flask Backend Developer"
+        ],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
