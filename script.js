@@ -42,6 +42,32 @@ $(document).ready(function(){
             }
         }
     });
+
+    $('#contact-form').on('submit', function(event) {
+        event.preventDefault();
+
+        if (!this.checkValidity()) {
+            this.reportValidity();
+            return;
+        }
+
+        const name = $('#contact-name').val().trim();
+        const email = $('#contact-email').val().trim();
+        const subject = $('#contact-subject').val().trim();
+        const message = $('#contact-message').val().trim();
+
+        const emailBody =
+            `Hello Varun,\n\n` +
+            `Name: ${name}\n` +
+            `Email: ${email}\n\n` +
+            `Message:\n${message}`;
+
+        const mailtoLink =
+            `mailto:varun.mithyantha@gmail.com?subject=${encodeURIComponent(subject)}` +
+            `&body=${encodeURIComponent(emailBody)}`;
+
+        window.location.href = mailtoLink;
+    });
 });
 
 
